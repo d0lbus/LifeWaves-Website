@@ -57,6 +57,82 @@ nav ul li a {
     padding: 10px 8%;
 }
 
+/* COMMUNITY */
+
+.community-container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(images/HERO\ PAGE\ BACKGROUND.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+
+.col-community {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.row-community {
+    box-sizing: border-box;
+    margin: 0 -5px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .col-community {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.advocacy-groups-title {
+    margin-top: 6%;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #eeeeee;
+}
+
+.card-img-top {
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    width: 50%;
+    display: block;
+}
+
+.card {
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+    padding: 16px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.card-body {
+    padding: 25px;
+    margin-top: -15px;
+}
+
+.card-title {
+    color: #000000;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
 
 /* FOOTER */
 .footer {
