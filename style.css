@@ -10,8 +10,8 @@ html {
 
 }
 
-
 /* NAVIGATION BAR */
+
 
 nav {
     width: 100%;
@@ -39,6 +39,22 @@ nav ul li a {
     text-decoration: none;
     font-weight: 300%;
     font-size: 200%;
+}
+
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+
+/* HERO SECTION */
+
+.hero-section{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(images/HERO\ PAGE\ BACKGROUND.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
 }
 
 
