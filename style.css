@@ -44,7 +44,48 @@ nav ul li a {
 
 /* FOOTER */
 .footer {
-    background-color: #2121a5;
+    background:linear-gradient(90deg, #201E43, #508C9B, #201E43 100%);
     padding: 20px 0;
     text-align: center;
 }
+
+.footer-logo {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    
+    .footer-link {
+    color:  #000000;
+    text-decoration: none;
+    margin: 10px;
+    transition: color 0.3s ease;
+    }
+    
+    .footer-link:hover {
+    color: #ffffff;
+    }
+    .footer-text p {
+    padding-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    }
+    
+    .footer-divider {
+    margin: 10px auto;
+    width: 80%;
+    height: 1px;
+    background-color: #eeeeee;
+    }
+    
+    .footer-bottom {
+      color: #201E43;
+      font-size: 12px;
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    .footer-link i {
+    margin-right: 5px;
+    }
