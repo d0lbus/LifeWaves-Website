@@ -274,3 +274,102 @@ nav ul li a {
     .footer-link i {
     margin-right: 5px;
     }
+
+    
+    /* Stats */
+  .stats {
+    margin: 0;
+    padding: 20px;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(images/HERO\ PAGE\ BACKGROUND.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+
+    
+  .stats h1  {
+    font-size: 36px;
+    color: #eeeeee;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  
+  .statistics-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .statistics {
+    width: calc(50% - 20px);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+
+  .statistics:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  .statistics-content{
+    padding: 40px;
+  }
+  .statistics-image {
+    flex: 0 0 40%;
+    padding: 20px;
+  }
+  
+  .statistics-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .statistics h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .statistics p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+  }
+
+  /* stats button */
+  .stats-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004d99; 
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+  
+  .stats-btn:hover {
+    color: #ffffff;
+    border: 1px solid #201e43;
+  }
+  
+  .stats-btn:hover:before {
+    background-color: #201e43;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
+  .stats-btn:hover:after {
+    background-color: #201e43;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
