@@ -136,6 +136,11 @@ nav ul li a {
 
 /* NEWS AND EVENTS */
 
+.container-news{
+    background-color: #eeeeee;
+    padding-bottom: 10px;
+}
+
 .news-title {
     text-align: center;
     font-size: 3rem;
@@ -222,6 +227,103 @@ nav ul li a {
 }
 
 .news-card-footer .date {
+    color: #508c9b; 
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.container-events{
+    background-color: #508c9b;
+    padding-bottom: 10px;
+}
+
+
+.events-title {
+    text-align: center;
+    font-size: 3rem;
+    color: #003366;
+    margin: 40px 0;
+}
+
+.events-line {
+    width: 120px;
+    height: 4px;
+    background: #ffcc00;
+    margin: 10px auto;
+}
+
+.col-events {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 0 10px;
+}
+
+.events-card {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column; 
+}
+
+.events-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.events-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 4px solid #004d99;
+}
+
+.events-card-content {
+    padding: 20px;
+    flex: 1; 
+}
+
+.events-card-content h3 {
+    font-size: 1.5rem;
+    color: #003366; 
+    margin-bottom: 10px;
+}
+
+.events-card-content p {
+    color: #333333;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.events-card-content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004d99; 
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.events-card-content .btn:hover {
+    background-color: #003366;
+}
+
+.events-card-footer {
+    background: #f5f5f5; 
+    padding: 10px 20px;
+    text-align: center;
+    border-top: 1px solid #cccccc;
+}
+
+.events-card-footer .date {
     color: #508c9b; 
     font-size: 0.9rem;
     font-weight: bold;
