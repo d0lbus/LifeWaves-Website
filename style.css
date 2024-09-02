@@ -97,12 +97,25 @@ nav ul li a {
 
 .advocacy-groups-title, .opinions-title {
     margin-top: 6%;
-    margin-bottom: 40px;
     text-align: center;
     font-weight: 900;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
-    color: #eeeeee;
+    color: #fff;
+}
+
+.advocacy-line {
+    width: 120px;
+    height: 4px;
+    background: #ffcc00;
+    margin: 10px auto;
+}
+
+.opinions-line {
+    width: 120px;
+    height: 4px;
+    background: #ffcc00;
+    margin: 10px auto;
 }
 
 .card-img-top {
@@ -152,13 +165,53 @@ nav ul li a {
     color: #000000;
     text-align: center;
     padding-top: 50px;
-    
+    font-weight: 800;
+    font-style: oblique;
 }
 
-.opinion-1 {
-    color: #eeeeee;
+.text-box {
+    display:inline-flex
 }
 
+.opinions-span {
+    font-weight: bold;
+    font-style: italic;
+    color: #000000;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #a7a8aa;
+}
+
+.opinion-card-1 {
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.opinion-1-p {
+    padding: 20px;
+}
+
+.opinion-card-2 {
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.opinion-2-p {
+    padding: 20px;
+}
+
+.image-box {
+    display: inline-flex;
+}
+
+.opinions-img {
+    width: 100%;
+}
 
 /* NEWS */
 
