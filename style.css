@@ -156,6 +156,12 @@ nav ul li a {
     background-color: #fff;
     height: 12cm;
     margin-bottom: 70px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .card-body {
