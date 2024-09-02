@@ -71,7 +71,7 @@ nav ul li a {
 .community-container {
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(images/HERO\ PAGE\ BACKGROUND.png);
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65));
     background-size: cover;
     background-position: center;
     padding: 10px 8%;
@@ -95,7 +95,7 @@ nav ul li a {
     clear: both;
 }
 
-.advocacy-groups-title {
+.advocacy-groups-title, .opinions-title {
     margin-top: 6%;
     margin-bottom: 40px;
     text-align: center;
@@ -114,12 +114,33 @@ nav ul li a {
     display: block;
 }
 
+.card-img-top-oceana {
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    width: 90%;
+    display: block;
+}
+
+.card-img-top-PS {
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    display: block;
+}
+
 .card {
     border-radius: 30px;
+    border-style: ridge;
+    border-color: #000000;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
     padding: 16px;
     text-align: center;
     background-color: #fff;
+    height: 12cm;
+    margin-bottom: 70px;
 }
 
 .card-body {
@@ -132,6 +153,10 @@ nav ul li a {
     text-align: center;
     padding-top: 50px;
     
+}
+
+.opinion-1 {
+    color: #eeeeee;
 }
 
 
