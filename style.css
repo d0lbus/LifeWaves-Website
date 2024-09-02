@@ -431,6 +431,13 @@ nav ul li a {
     box-sizing: border-box;
 }
 
+#Innovations body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
 #Innovations span {
     color: white;
     text-transform: uppercase;
@@ -440,7 +447,7 @@ nav ul li a {
 #Innovations .heading1 {
     margin: 40px 0;
     text-align: center;
-    color: #003366;
+    color: white;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -512,6 +519,49 @@ nav ul li a {
     color: #fff;
 }
 
+#Innovations img {
+    max-width: 320px;
+    float: left;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+#Innovations .wrapper {
+    margin: 150px auto;
+    width: 70%
+}
+
+#Innovations .text-box {
+    color: white;
+}
+
+#Innovations .text-box h3 {
+    font-size: 42px;
+    margin: 40px 0;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 3s 1;
+}
+
+#Innovations .trends-line {
+    width: 200px;
+    height: 4px;
+    background: #ffcc00;
+    margin-left: -1px;
+    margin-bottom: 10px auto;
+}
+
+#Innovations .text-box p {
+    font-size: 16px;
+}
+
+#Innovations a {
+    color: white;
+}
 /* FOOTER */
 .footer {
     background:linear-gradient(90deg, #201E43, #508C9B, #201E43 100%);
