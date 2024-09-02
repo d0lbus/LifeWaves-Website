@@ -48,6 +48,15 @@ nav ul li a {
 
 /* HERO SECTION */
 
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(images/HERO\ PAGE\ BACKGROUND.png);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+  }
+
 .hero-section{
     width: 100%;
     min-height: 100vh;
@@ -129,14 +138,13 @@ nav ul li a {
 /* NEWS AND EVENTS */
 
 .container-news{
-    background-color: #eeeeee;
     padding-bottom: 10px;
 }
 
 .news-title {
     text-align: center;
     font-size: 3rem;
-    color: #003366;
+    color: #eeeeee;
     margin: 40px 0;
 }
 
@@ -225,7 +233,6 @@ nav ul li a {
 }
 
 .container-events{
-    background-color: #508c9b;
     padding-bottom: 10px;
 }
 
@@ -233,7 +240,7 @@ nav ul li a {
 .events-title {
     text-align: center;
     font-size: 3rem;
-    color: #003366;
+    color: #eeeeee;
     margin: 40px 0;
 }
 
