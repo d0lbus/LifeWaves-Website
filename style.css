@@ -424,12 +424,40 @@ nav ul li a {
     box-sizing: border-box;
 }
 
-#Innovations body {
-    background-color: white;
+#Innovations span {
+    color: white;
+    text-transform: uppercase;
+    display: block;
 }
 
-#Innovations h1{
+#Innovations .heading1 {
+    margin: 40px 0;
     text-align: center;
+    color: #003366;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 3s 1;
+    font-size: 3rem;
+}
+
+#Innovations .innovations-line {
+    width: 350px;
+    height: 4px;
+    background: #ffcc00;
+    margin: 10px auto;
+}
+
+@keyframes text {
+    0%{
+        color: white;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
 }
 
 #Innovations .card-container {
@@ -450,7 +478,7 @@ nav ul li a {
 
 #Innovations .card img {
     width: 100%;
-    height: auto
+    height: auto;
 }
 
 #Innovations .card-content{
