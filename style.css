@@ -223,7 +223,7 @@ a:hover {
 /* NEWS */
 
 .container-news{
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .news-title {
@@ -251,7 +251,7 @@ a:hover {
 }
 
 .news-card {
-    width: 300px;
+    width: 350px;
     background-color: #ffffff;
     border-radius: 12px;
     overflow: hidden;
@@ -321,10 +321,7 @@ a:hover {
 /* EVENTS */
 
 .container-events{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .events-title {
@@ -339,35 +336,6 @@ a:hover {
     height: 4px;
     background: #ffcc00;
     margin: 10px auto;
-}
-
-.events-card img{
-    height: 38vh;
-    width: 28vw;
-    border-radius: 3px;
-    margin: 0vh 5vh;
-    box-shadow: 4px 5px 15px black;
-    transition: transform .5s;
-}
-
-.events-card img:hover{
-    transform: translateY(-100px);
-}
-
-.inbox{
-    height: 20vh;
-    width: 28vw;
-    text-shadow: 3px 2px 5px black;
-    color: white;
-    margin: 5vh;
-    position: absolute;
-    top: 210vh;
-    transition: transform .5s;
-    z-index: -1;
-}
-
-.events-card:hover .inbox{
-    transform: translateY(58px);
 }
 
 
