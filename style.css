@@ -9,9 +9,7 @@ html {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body{
-    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(images/HERO\ PAGE\ BACKGROUND.png);
-}
+
 
 /* NAVIGATION BAR */
 
@@ -470,26 +468,26 @@ a:hover {
 
 /* INNOVATIONS */
 
-#Innovations *{
+.innovations-container *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-#Innovations body {
+.innovations-container body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
-#Innovations span {
+.innovations-container span {
     color: white;
     text-transform: uppercase;
     display: block;
 }
 
-#Innovations .heading1 {
+.innovations-container .heading1 {
     margin: 40px 0;
     text-align: center;
     color: white;
@@ -501,7 +499,7 @@ a:hover {
     font-size: 3rem;
 }
 
-#Innovations .innovations-line {
+.innovations-container .innovations-line {
     width: 350px;
     height: 4px;
     background: #ffcc00;
@@ -519,14 +517,14 @@ a:hover {
     }
 }
 
-#Innovations .card-container {
+.innovations-container .card-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 100px;
 }
 
-#Innovations .card{
+.innovations-container .card{
     width: 325px;
     background-color: white;
     border-radius: 8px;
@@ -535,26 +533,26 @@ a:hover {
     margin: 20px;
 }
 
-#Innovations .card img {
+.innovations-container .card img {
     width: 100%;
     height: auto;
 }
 
-#Innovations .card-content{
+.innovations-container .card-content{
     padding: 16px;
 }
 
-#Innovations .card-content h2 {
+.innovations-container .card-content h2 {
     font-size: 28px;
     margin-bottom: 8px;
 }
 
-#Innovations .card-content p {
+.innovations-container .card-content p {
     font-size: 15px;
     line-height: 1.3;
 }
 
-#Innovations .card-content .button {
+.innovations-container .card-content .button {
     display:inline-block;
     padding: 8px 16px;
     background-color: #333;
@@ -564,7 +562,7 @@ a:hover {
     color: #fff;
 }
 
-#Innovations img {
+.trends-container img {
     max-width: 320px;
     float: left;
     border: 3px solid white;
@@ -572,16 +570,16 @@ a:hover {
     margin-right: 15px;
 }
 
-#Innovations .wrapper {
+.trends-container .wrapper {
     margin: 150px auto;
     width: 70%
 }
 
-#Innovations .text-box {
+.trends-container .text-box {
     color: white;
 }
 
-#Innovations .text-box h3 {
+.trends-container .text-box h3 {
     font-size: 42px;
     margin: 40px 0;
     color: white;
@@ -592,7 +590,7 @@ a:hover {
     animation: text 3s 1;
 }
 
-#Innovations .trends-line {
+.trends-container .trends-line {
     width: 200px;
     height: 4px;
     background: #ffcc00;
@@ -600,11 +598,11 @@ a:hover {
     margin-bottom: 10px auto;
 }
 
-#Innovations .text-box p {
+.trends-container .text-box p {
     font-size: 16px;
 }
 
-#Innovations a {
+.trends-container a {
     color: white;
 }
 /* FOOTER */
