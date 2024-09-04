@@ -38,7 +38,7 @@ nav ul li {
 nav ul li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-weight: 300%;
+    font-weight: 300;
     font-size: 150%;
 }
 
@@ -370,9 +370,7 @@ a:hover {
     background: #29AB87;
 }
 
-.carousel-container::-webkit-scrollbar-track-piece:start {
-    background: #29AB87;
-}
+
 
 .carousel-slide {
     flex: 1 0 30%;
