@@ -42,7 +42,7 @@ nav ul li a {
 }
 
 .logo{
-    width: 180px;
+    width: 200px;
     cursor: pointer;
 }
 
@@ -50,11 +50,38 @@ nav ul li a {
 
 .hero-section{
     width: 100%;
-    min-height: 100vh;
-    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(images/HERO\ PAGE\ BACKGROUND.png);
+    min-height: 110vh;
+    background-image: linear-gradient(rgba(20, 12, 74, 0.65),rgba(2, 1, 1, 0.65)), url(images/HERO\ PAGE\ BACKGROUND.png);
     background-size: cover;
     background-position: center;
     padding: 10px 8%;
+}
+
+.hero-content {
+    max-width: 680px;
+}
+
+
+.hero-content h1{
+    font-size: 400%;
+    color: #eeeeee;
+    padding-top: 6vh;
+}
+
+.hero-content p{
+    font-size: 150%;
+    color: #eeeeee;
+    padding-top: 3vh;
+}
+
+.hero-content a{
+    background-color: #020202;
+    color: white;
+    margin-top: 4vh;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 
