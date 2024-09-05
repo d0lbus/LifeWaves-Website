@@ -66,35 +66,6 @@ nav ul li a {
     padding: 10px 8%;
 }
 
-<<<<<<< HEAD
-.hero-content {
-    max-width: 680px;
-}
-
-
-.hero-content h1{
-    font-size: 400%;
-    color: #eeeeee;
-    padding-top: 6vh;
-}
-
-.hero-content p{
-    font-size: 150%;
-    color: #eeeeee;
-    padding-top: 3vh;
-}
-
-.hero-content a{
-    background-color: #020202;
-    color: white;
-    margin-top: 4vh;
-    padding: 14px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-=======
 /* COMMUNITY */
 
 .community-container {
@@ -618,6 +589,7 @@ a:hover {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-color: #508c9b;
 }
 
 .innovations-container body {
@@ -636,7 +608,7 @@ a:hover {
 .innovations-container .heading1 {
     margin: 40px 0;
     text-align: center;
-    color: #508c9b;
+    color: #ffffff;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -713,6 +685,11 @@ a:hover {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-image: url(images/TrendsBGImage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .innovations-container body {
@@ -731,7 +708,7 @@ a:hover {
 .trends-container .heading2 {
     margin: 40px 0;
     text-align: center;
-    color: #508c9b;
+    color: #ffffff;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -784,7 +761,7 @@ a:hover {
 }
 
 .trends-text-box {
-    color: black;
+    color: #ffffff;
 }
 
 .trends-wrapper2 .button {
@@ -796,7 +773,6 @@ a:hover {
     margin-top: 16px;
     color: #fff;
 }
->>>>>>> eb2bcb2e31beee78b123769f03b01d685498bc4a
 
 /* FOOTER */
 .footer {
