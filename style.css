@@ -583,6 +583,7 @@ a:hover {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-color: #508c9b;
 }
 
 .innovations-container body {
@@ -601,7 +602,7 @@ a:hover {
 .innovations-container .heading1 {
     margin: 40px 0;
     text-align: center;
-    color: #508c9b;
+    color: #ffffff;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -678,6 +679,11 @@ a:hover {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-image: url(images/TrendsBGImage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .innovations-container body {
@@ -696,7 +702,7 @@ a:hover {
 .trends-container .heading2 {
     margin: 40px 0;
     text-align: center;
-    color: #508c9b;
+    color: #ffffff;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -749,7 +755,7 @@ a:hover {
 }
 
 .trends-text-box {
-    color: black;
+    color: #ffffff;
 }
 
 .trends-wrapper2 .button {
