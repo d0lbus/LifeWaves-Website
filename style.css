@@ -1,5 +1,9 @@
-html {
+html, body {
     scroll-behavior: smooth;
+    overflow-y: auto; /* Ensure vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    height: auto; /* Allow height to expand with content */
+    min-height: 100%; /* Ensure the body covers at least the full viewport */
 }
 
 *{
@@ -10,23 +14,34 @@ html {
 }
 
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 /* NAVIGATION BAR */
 
 
 nav {
+    position: sticky; 
+    top: 0;
+    background-color: #0b273a; 
+    z-index: 999;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 1vh 0;
 }
 
-nav ul{
+nav ul {
     list-style: none;
-    width: 100%;
-    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
     padding: 10px;
+    margin: 0;
 }
 
 nav ul li {
@@ -39,12 +54,13 @@ nav ul li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 300;
-    font-size: 150%;
+    font-size: 140%;
 }
 
 .logo{
     width: 200px;
     cursor: pointer;
+    margin-left: 5%;
 }
 
 /* HERO SECTION */
@@ -57,13 +73,40 @@ nav ul li a {
     width: auto;
   }
 
-.hero-section{
+  .hero-section{
     width: 100%;
-    min-height: 110vh;
+    min-height: 100vh;
     background-image: linear-gradient(rgba(20, 12, 74, 0.65),rgba(2, 1, 1, 0.65)), url(images/HERO\ PAGE\ BACKGROUND.png);
     background-size: cover;
     background-position: center;
     padding: 10px 8%;
+}
+
+.hero-content {
+    max-width: 680px;
+}
+
+
+.hero-content h1{
+    font-size: 400%;
+    color: #eeeeee;
+    padding-top: 6vh;
+}
+
+.hero-content p{
+    font-size: 150%;
+    color: #eeeeee;
+    padding-top: 3vh;
+}
+
+.hero-content a{
+    background-color: #020202;
+    color: white;
+    margin-top: 4vh;
+    padding: 14px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 /* COMMUNITY */
@@ -417,8 +460,6 @@ a:hover {
     background: #29AB87;
 }
 
-
-
 .carousel-slide {
     flex: 1 0 30%;
     aspect-ratio: 1;
@@ -435,6 +476,7 @@ a:hover {
     padding: 20px;
     box-sizing: border-box;
 }
+
 
 @media (max-width: 600px) {
     .carousel-slide {
@@ -768,53 +810,102 @@ a:hover {
     color: #fff;
 }
 
-/* FOOTER */
-.footer {
-    background:linear-gradient(90deg, #201E43, #508C9B, #201E43 100%);
-    padding: 20px 0;
+/* Footer Styling */
+
+footer.footer {
+    background: linear-gradient(90deg, #201E43, #508C9B, #201E43 100%);
+    padding: 40px 20px;
     text-align: center;
+    color: #ffffff;
 }
 
-.footer-logo {
-    color: #000000;
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo h2 {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 10px;
-    }
-    
-    .footer-link {
-    color:  #000000;
-    text-decoration: none;
-    margin: 10px;
-    transition: color 0.3s ease;
-    }
-    
-    .footer-link:hover {
     color: #ffffff;
-    }
-    .footer-text p {
-    padding-top: 10px;
-    font-size: 14px;
-    text-align: center;
-    }
-    
-    .footer-divider {
-    margin: 10px auto;
+    margin-bottom: 20px;
+}
+
+/* Footer Newsletter Form */
+
+.footer-newsletter {
+    margin-bottom: 20px;
+}
+
+.footer-newsletter h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.footer-newsletter p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.newsletter-form {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    outline: none;
+    width: 250px;
+    color: #333;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #29AB87;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #228B76;
+}
+
+/* Divider */
+.footer-divider {
+    margin: 20px auto;
     width: 80%;
     height: 1px;
     background-color: #eeeeee;
-    }
-    
-    .footer-bottom {
-      color: #201E43;
-      font-size: 12px;
-      margin-top: 20px;
-      text-align: center;
-    }
-    
-    .footer-link i {
-    margin-right: 5px;
-    }
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-bottom .footer-link {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-bottom .footer-link:hover {
+    color: #ffcc00;
+}
+
+
+
 
     @media screen and (max-width: 600px) {
         .col-community {
