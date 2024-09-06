@@ -144,7 +144,7 @@ nav ul li a {
     font-weight: 900;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
-    color: #fff;
+    color: #000000;
 }
 
 .opinions-title {
@@ -238,6 +238,7 @@ nav ul li a {
     display: flex;
     padding-inline: 15px;
     align-items: center;
+    margin: 50px
 }
 
 .opinions-content {
@@ -253,7 +254,7 @@ nav ul li a {
     display: inline-flex;
 }
 
-.person-1 {
+.person {
     clip-path: circle(39%);
     width: 70%;
     margin-top: 30px;
