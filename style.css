@@ -207,7 +207,10 @@ nav ul li a {
 #community {
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)); 
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)), url(images/advocacy-bg.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     padding: 10px 8%;
@@ -238,10 +241,9 @@ nav ul li a {
 .advocacy-groups-title {
     margin-top: 6%;
     text-align: center;
-    font-weight: 900;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
     font-size: 50px;
-    color: #000000;
+    color: #fff;
 }
 
 .advocacy-line {
@@ -252,10 +254,10 @@ nav ul li a {
 }
 
 .card {
-    border-radius: 30px;
+    border-radius: 20px;
     border-style: ridge;
-    border-color: #000000;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+    border-color: #6b6f89;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px 15px;
     padding: 16px;
     text-align: center;
     background-color: #fff;
@@ -273,25 +275,9 @@ nav ul li a {
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 60px;
     padding-top: 60px;
     width: 50%;
-    display: block;
-}
-
-.card-img-top-oceana {
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 90px;
-    width: 90%;
-    display: block;
-}
-
-.card-img-top-PS {
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
     display: block;
 }
 
@@ -300,12 +286,20 @@ nav ul li a {
     margin-top: -15px;
 }
 
+.card-line {
+    width: 100%;
+    height: 2px;
+    background: #7d7d7d;
+    margin-top: 50px;
+}
+
 .card-title {
     color: #000000;
     text-align: center;
     padding-top: 50px;
-    font-weight: 800;
+    font-weight: 600;
     font-style: oblique;
+    font-size: 30px;
 }
 
 @media (max-width: 1200px) {
@@ -346,8 +340,7 @@ nav ul li a {
 .opinions-title {
     padding-top: 6%;
     text-align: center;
-    font-weight: 900;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
     font-size: 50px;
     color: #000000;
 }
@@ -379,15 +372,16 @@ nav ul li a {
     margin-top: 40px;
     padding-right: 50px;
     font-weight: 700;
-    font-size: x-large;
+    font-size: 30px;
     word-spacing: 5px;
     text-align: center;
 }
 
 .opinions-span {
-    font-weight: bold;
+    font-weight: 400;
     font-style: italic;
-    color: #000000;
+    font-size: 25px;
+    color: #464646;
 }
 
 a:link, a:visited, a:active {
@@ -397,6 +391,13 @@ a:link, a:visited, a:active {
 a:hover {
     background-color: #a7a8aa;
     border-radius: 6px;
+}
+
+.opinions-line-2 {
+    width: 80%;
+    height: 1px;
+    background: #c8c8c7;
+    margin: 15px auto;
 }
 
 
