@@ -523,8 +523,8 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    padding-bottom: 300px;
+    min-height: 10vh;
+    padding-bottom: 100px;
 }
 
 .carousel-container {
@@ -587,8 +587,8 @@ a:hover {
     max-width: 80%;
     background: linear-gradient(
         to bottom, 
-        rgba(50, 50, 50, 0.3), /* Dark gray with 50% transparency */
-        rgba(50, 50, 50, 0.3)  /* Dark gray with 50% transparency */
+        rgba(50, 50, 50, 0.3),
+        rgba(50, 50, 50, 0.3)  
     );
 }
 
