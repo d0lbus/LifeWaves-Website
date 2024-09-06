@@ -231,37 +231,40 @@ nav ul li a {
 }
 
 .opinions-container {
+    display: flex;
     padding-inline: 15px;
+    align-items: center;
 }
 
 .opinions-content {
     margin-block-end: 30px;
     display: inline-flex;
+    flex: 1;
 }
 
 .opinions-person-pic-container {
     margin-block-end: 25px;
+    margin-right: 20px;
     width: 35%;
     display: inline-flex;
 }
 
 .person-1 {
     clip-path: circle(39%);
-    width: 100%;
+    width: 70%;
     margin-top: 30px;
     margin-bottom: 20px;
+    margin-left: 60px;
 }
 
 .opinions-text {
     margin-block-end: 25px;
-    display: inline-flex;
-    justify-content: flex-end;
+    margin-top: 40px;
     padding-right: 50px;
-}
-
-/*
-.text-box {
-    display:inline-flex
+    font-weight: 700;
+    font-size: x-large;
+    word-spacing: 5px;
+    text-align: center;
 }
 
 .opinions-span {
@@ -276,35 +279,9 @@ a:link, a:visited, a:active {
 
 a:hover {
     background-color: #a7a8aa;
+    border-radius: 6px;
 }
 
-.opinion-card-1 {
-    background-color: #fff;
-    margin-top: 30px;
-}
-
-.opinion-1-p {
-    padding: 20px;
-}
-
-.opinion-card-2 {
-    background-color: #fff;
-    margin-top: 30px;
-}
-
-.opinion-2-p {
-    padding: 20px;
-}
-
-.image-box {
-    display: inline-flex;
-}
-
-.opinions-img {
-    width: 100%;
-    height: 100%;
-}
-    */
 
 /* NEWS */
 
