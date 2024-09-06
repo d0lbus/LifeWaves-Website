@@ -8,7 +8,11 @@
 </head>
 <body>
     <nav>
-        <img src = "images/LifeWavesWhiteLogo.png" class ="logo" alt="">
+        <img src = "images/LifeWavesWhiteLogo.png" class ="logo" alt="Lifewaves Logo">
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+        </div>
         <ul>
             <li><a href="#heropage">Home</a></li>
             <li><a href="#news_and_events">News</a></li>
@@ -468,6 +472,13 @@
             </div>
         </div>
     </section>
+
+    <script>
+        function toggleMenu() {
+            var navlinks = document.getElementById("nav-links");
+            navlinks.classList.toggle("active");
+        }
+    </script>
     
     
     <footer class="footer">
