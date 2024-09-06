@@ -11,7 +11,11 @@
 </head>
 <body>
     <nav>
-        <img src = "images/LifeWavesWhiteLogo.png" class ="logo" alt="">
+        <img src = "images/LifeWavesWhiteLogo.png" class ="logo" alt="Lifewaves Logo">
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+        </div>
         <ul>
             <li><a href="#heropage">Home</a></li>
             <li><a href="#news_and_events">News</a></li>
@@ -197,7 +201,6 @@
                     </div>
                 </div>
             </div>
-                
     </section>
 
     <section id="community">
@@ -249,27 +252,73 @@
 
             
     <section id="opinions">
-            <h1 class="opinions-title">Opinions</h1>
-            <div class="opinions-line"></div>
-                
-            <div class="opinions-container">
+        <h1 class="opinions-title">Opinions</h1>
+        <div class="opinions-line"></div>
 
-                <div class="opinions-person-pic-container">
-                    <img src="images/dr.sylvia-earle.jpeg" class="person-1" alt="Dr. Sylvia Earle">
-                </div>
-
-                <div class="opinions-content">
-                    <p class="opinions-text">
-                        "Marine ecosystems are the lungs of our planet, producing over half the 
-                    oxygen we breathe. Protecting them is not only crucial for the health of our oceans, but 
-                    for the survival of humanity itself. We must act now to curb pollution, overfishing, and 
-                    the devastating impacts of climate change befor it's too late. <br>
-                    
-                    <br>With every drop of water you drink, every breath you take, you're connected to the sea."
-                    </p>
-                </div>
-
+        <div class="opinions-container">
+            <div class="opinions-person-pic-container">
+                <img src="images/dr.sylvia-earle.jpeg" class="person" alt="Dr. Sylvia Earle">
             </div>
+
+            <div class="opinions-content">
+                <p class="opinions-text">
+                    "With every drop of water you drink, every breath you take, you're connected to the sea." - 
+                    <a href="https://marine-conservation.org/why-protect-the-ocean/" target="_blank">
+                         <span class="opinions-span"> Dr. Sylvia Earle, oceanographer and National Geographic Explorer-in-Residence </span>
+                    </a>
+                </p>
+            </div>  
+        </div>
+
+        <div class="opinions-container">
+            <div class="opinions-person-pic-container">
+                <img src="images/dr.-rohan-currey.jpg" class="person" alt="Dr. Rohan Currey">
+            </div>
+
+            <div class="opinions-content">
+                <p class="opinions-text">
+                    "Unsustainable fishing practices are a serious threat to the biodiversity and productivity
+                    of our oceans. Yet we know that with proper management, depleted stocks and damaged 
+                    ecosystems can recover." - 
+                    <a href="https://www.msc.org/en-au/what-we-are-doing/oceans-at-risk/marine-biodiversity" target="_blank">
+                         <span class="opinions-span"> Dr. Rohan Currey, MSC Chief Science & Standards Officer </span>
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="opinions-container">
+            <div class="opinions-person-pic-container">
+                <img src="images/jacques-yves-cousteau.jpg" class="person" alt="Jacques Yves Cousteau">
+            </div>
+
+            <div class="opinions-content">
+                <p class="opinions-text">
+                    "No aquarium, no tank in a marine land, however spacious it may be, can begin to duplicate the conditions 
+                    of the sea. And no dolphin who inhabits one of those aquariums or one of those marine lands can be 
+                    considered normal." - 
+                    <a href="https://justoneocean.org/cetaceans-in-captivity" target="_blank">
+                         <span class="opinions-span"> Dr. Rohan Currey, MSC Chief Science & Standards Officer </span>
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="opinions-container">
+            <div class="opinions-person-pic-container">
+                <img src="images/dr-nancy-knowlton.jpg" class="person" alt="Jacques Yves Cousteau">
+            </div>
+
+            <div class="opinions-content">
+                <p class="opinions-text">
+                    "I watched the coral reefs that i studied as a student vanish in the blink of an eye, and for decades I 
+                    wrote and spoke of ocean obituaries. but big scary problems without solutions lead to apathy, not action." - 
+                    <a href="https://bayislandsreefrestoration.org/our-mission" target="_blank">
+                         <span class="opinions-span"> Dr. Nancy Knowlton </span>
+                    </a>
+                </p>
+            </div>
+        </div>
     </section>
 
     <section id = "innovations">
@@ -442,7 +491,15 @@
             </div>
         </div>
     </section>
-     
+
+    <script>
+        function toggleMenu() {
+            var navlinks = document.getElementById("nav-links");
+            navlinks.classList.toggle("active");
+        }
+    </script>
+    
+    
     <footer class="footer">
         <div class="footer-content">
             <!-- Logo or other content -->
