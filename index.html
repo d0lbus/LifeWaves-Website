@@ -7,23 +7,32 @@
     <title>LifeWaves</title>
 </head>
 <body>
-    <main>
-        <div class="hero-section">
-            <nav>
-                <img src = "images/LifeWavesWhiteLogo.png" class ="logo" alt="">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="statistics.html">Statistics</a></li>
-                    <li><a href="community.html">Community</a></li>
-                    <li><a href="innovations.html">Innovations</a></li>
-                </ul>
-            </nav>
-            <div class = "hero-content">
-            </div>
-        </div>
+    <nav>
+        <img src = "images/LifeWavesWhiteLogo.png" class ="logo" alt="">
+        <ul>
+            <li><a href="#heropage">Home</a></li>
+            <li><a href="#news_and_events">News</a></li>
+            <li><a href="#stats">Statistics</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#opinions">Opinions</a></li>
+            <li><a href="#innovations">Innovations</a></li>
+            <li><a href="#trends">Trends</a></li>
+        </ul>
+    </nav>
 
-        <section class="news_and_events">
+    <section id="heropage">
+            <div class="hero-section">
+                
+                <div class = "hero-content">
+                    <h1>SUSTAIN <br> OCEANS <br> SAVE LIVES</h1>
+                    <p>Learn how we sustain the oceans <br>to save marine life</p>
+                    <a href="default.asp" target="_blank">Read More</a>
+                </div>
+            </div>
+    </section>
+        
+
+    <section id="news_and_events">
             <div class="container-news">
                 <div class="news-title">
                     <h1>News</h1>
@@ -126,78 +135,51 @@
                     </div>
                 </div> 
             </div>
-        </section>
+    </section>
 
-        <section class="statistics">
-            <div class="stats">
-                  <h1>Statistics</h1>
-                  <div class="statistics-container">
-                    <div class="statistics">
-      
-                      <div class="statistics-image">
-                        <img src="images/oceaneco.jpg" alt="Ocean Life">
-                      </div>
-                      <div class="statistics-content">
-                        <h2>Ocean Life</h2>
-                        <p>Ocean life is a rich and diverse ecosystem, 
-                          home to everything from tiny plankton to massive whales. 
-                          Coral reefs and deep-sea environments host countless species 
-                          that interact in complex food webs. This vibrant underwater 
-                          world is vital to Earth's biodiversity and ecological balance.</p>
-                          <button class="stats-btn" onclick="window.open('https://oceanservice.noaa.gov/facts/oceanfacts-oceanlife.html', '_blank');">LEARN MORE</button>
-                      </div>
+    <section id="stats">
+            <div class="stats-container">
+                <h1 class="section-heading" data-outline="Stats">Stats</h1>
+                <div class="all-items">
+                    <div class="item">
+                        <img src="images/infograph.avif" alt="Ocean Pollution">
+                        <h3 class="stats-subhead">Ocean Pollution</h3>
+                        <p>Marine pollution includes contaminants 
+                            such as plastics, chemicals, oil, and agricultural 
+                            runoff, with metric tons entering the seas 
+                            annually. This pollution leads to massive garbage accumulation, 
+                            endangers aquatic life, and disrupts ecosystems. Plastic alone could outweigh all the fish in the ocean.
+                             .</p>
                     </div>
-                
-                    <div class="statistics">
-                      <div class="statistics-image">
-                        <img src="images/oceanlife.jpg" alt="Ocean Ecosystems">
-                      </div>
-                      <div class="statistics-content">
-                        <h2>Ocean Ecosystems</h2>
-                        <p>
-                          Ocean ecosystems are intricate networks of marine life, 
-                          from coral reefs to deep-sea environments, where species 
-                          interact in delicate balance. These ecosystems support biodiversity, 
-                          regulate the climate, and provide essential resources for life on Earth. 
-                          Their health is crucial for maintaining global ecological stability.</p>
-                          <button class="stats-btn" onclick="window.open('https://oceanservice.noaa.gov/facts/oceanfacts-ecosystems.html', '_blank');">LEARN MORE</button>
-                      </div>
+
+                    <div class="item">
+                        <img src="images/oceanplastic.jpeg" alt="Plastic Pollution">
+                        <h3 class="stats-subhead">Plastic Pollution</h3>
+                        <p>Plastic makes up 80% of marine pollution, 
+                            with 8 to 10 million metric tons entering 
+                            the ocean each year and about 50-75 trillion 
+                            pieces currently floating in it. By 2050, 
+                            plastic is projected to outweigh all fish 
+                            in the sea, highlighting the severe impact 
+                            of plastic waste on marine ecosystems.</p>
                     </div>
-                
-                    <div class="statistics">
-                      <div class="statistics-image">
-                        <img src="images/oceanh&s.jpg" alt="Health & Safety">
-                      </div>
-                      <div class="statistics-content">
-                        <h2>Health & Safety</h2>
-                        <p>Ocean health and safety are critical for sustaining marine ecosystems and human life. 
-                          Protecting water quality, preserving habitats, and reducing pollution are essential to 
-                          maintaining the ocean's vitality. Ensuring the safety of marine environments also involves 
-                          responsible fishing practices and safeguarding coastal communities from environmental hazards.</p>
-                          <button class="stats-btn" onclick="window.open('https://oceanservice.noaa.gov/facts/oceanfacts-health.html', '_blank');">LEARN MORE</button>
-                      </div>
+
+                    <div class="item">
+                        <img src="images/induspol.jpg" alt="Industrial Pollution">
+                        <h3 class="stats-subhead">Industrial Pollution</h3>
+                        <p>Industrial pollution, including acids,
+                            and chemicals, severely impacts oceans. It creates 
+                            dead zones, contaminates marine life with harmful substances
+                             like DDT, and poisons marinelife. Synthetic chemicals like PFAS 
+                             enter the ocean, eventually reaching and affecting human health 
+                             by infiltrating the bloodstream.</p>
                     </div>
-                
-                    <div class="statistics">
-                      <div class="statistics-image">
-                        <img src="images/oceanecon.webp" alt="Ocean Economy">
-                      </div>
-                      <div class="statistics-content">
-                        <h2>Ocean Economy</h2>
-                        <p>
-                          The ocean economy encompasses industries such as fishing, 
-                          tourism, shipping, and renewable energy that rely on marine resources. 
-                          It generates significant economic value and employment opportunities while 
-                          also driving innovation in sustainable practices. A healthy ocean is essential 
-                          for the continued prosperity and resilience of these economic activities.</p>
-                          <button class="stats-btn" onclick="window.open('https://oceanservice.noaa.gov/facts/oceanfacts-economy.html', '_blank');">LEARN MORE</button>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-        </section>
+            </div>
+                
+    </section>
 
-        <section class="community-container">
+    <section id="community">
             <h1 class="advocacy-groups-title">Advocacy Groups</h1>
             <div class="advocacy-line"></div>
 
@@ -242,11 +224,10 @@
                 </div>
 
             </div>
-        </section>
+    </section>
 
-                
-
-        <section class="section-opinions">
+            
+    <section id="opinions">
             <h1 class="opinions-title">Opinions</h1>
             <div class="opinions-line"></div>
                 
@@ -268,7 +249,7 @@
                 </div>
 
             </div>
-        </section>
+    </section>
     
                 
                     <!-- 
@@ -311,12 +292,8 @@
                     </div>
                      -->
     
-                    
-    
-                </div>
-            </div>
-        </section>
-        <section class ="innovations_and_trends">
+
+    <section id = "innovations">
             <div class="innovations-container">
                 <span class="heading1">Innovations</span>
                 <div class="innovations-line"></div>
@@ -461,32 +438,65 @@
             </div>
         </div>
     </div>
-    <div class="trends-container">
-        <span class="heading2">Trends</span>
-        <div class="trends-line"></div>
-        <div class="trends-wrapper1">
-            <img src="images/eutrophication.jpg" alt="">
-            <div class="trends-text-box">
-                <p>Healthy maritime ecosystems are essential to European well-being, yet they are under threat from overexploitation, pollution, habitat degradation, and climate change. The EU has made good strides toward expanding marine protected areas (MPAs) and reviving fish stocks, especially in the North-East Atlantic, in order to meet Sustainable Development Goal (SDG) 14. But issues like eutrophication, plastic and chemical pollution, and ocean acidification still pose a threat to marine life.</p>
-                <br>
-                <p>Increased CO2 absorption causes ocean acidification, which is especially dangerous in polar regions. Meanwhile, marine trash and nutrient pollution continue to pose serious risks. Even while the quality of coastal water has improved, especially at EU bathing places, there are still larger issues.</p>
+    </section>
+
+    <section id = "trends">
+        <div class="trends-container">
+            <span class="heading2">Trends</span>
+            <div class="trends-line"></div>
+            <div class="trends-wrapper1">
+                <img src="images/eutrophication.jpg" alt="">
+                <div class="trends-text-box">
+                    <p>Healthy maritime ecosystems are essential to European well-being, yet they are under threat from overexploitation, pollution, habitat degradation, and climate change. The EU has made good strides toward expanding marine protected areas (MPAs) and reviving fish stocks, especially in the North-East Atlantic, in order to meet Sustainable Development Goal (SDG) 14. But issues like eutrophication, plastic and chemical pollution, and ocean acidification still pose a threat to marine life.</p>
+                    <br>
+                    <p>Increased CO2 absorption causes ocean acidification, which is especially dangerous in polar regions. Meanwhile, marine trash and nutrient pollution continue to pose serious risks. Even while the quality of coastal water has improved, especially at EU bathing places, there are still larger issues.</p>
+                </div>
+            </div>
+            <div class="trends-wrapper2">
+                <img src="images/OceanPreservation.jpg" alt="">
+                <div class="trends-text-box">
+                    <p>The creation of MPAs is one step toward preserving marine biodiversity, but many of them lack efficient management strategies, which reduces their effectiveness. While the EU is striving to meet its international obligations—such as preserving thirty percent of the ocean by 2030—the majority of marine species and their habitats are still in poor condition.</p>
+                    <br>
+                    <p>A major factor in encouraging sustainable fishing methods is the European Common Fisheries Policy (CFP), which will cut fishing pressure by 44% between 2006 and 2021. More focused efforts are necessary because overfishing in the Mediterranean and Black Seas persists. The CFP is supported by the Marine Strategy Framework Directive, which guarantees a healthy age and size distribution of fish populations. However, the fact that long-term stock biomass remains stable underscores the continued complexity of fisheries management.</p>
+                    <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=SDG_14_-_Life_below_water#Life_below_water_in_the_EU:_overview_and_key_trends" class="button">Read More</a>
+                </div>
             </div>
         </div>
-        <div class="trends-wrapper2">
-            <img src="images/OceanPreservation.jpg" alt="">
-            <div class="trends-text-box">
-                <p>The creation of MPAs is one step toward preserving marine biodiversity, but many of them lack efficient management strategies, which reduces their effectiveness. While the EU is striving to meet its international obligations—such as preserving thirty percent of the ocean by 2030—the majority of marine species and their habitats are still in poor condition.</p>
-                <br>
-                <p>A major factor in encouraging sustainable fishing methods is the European Common Fisheries Policy (CFP), which will cut fishing pressure by 44% between 2006 and 2021. More focused efforts are necessary because overfishing in the Mediterranean and Black Seas persists. The CFP is supported by the Marine Strategy Framework Directive, which guarantees a healthy age and size distribution of fish populations. However, the fact that long-term stock biomass remains stable underscores the continued complexity of fisheries management.</p>
-                <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=SDG_14_-_Life_below_water#Life_below_water_in_the_EU:_overview_and_key_trends" class="button">Read More</a>
-            </div>
-        </div>
-    </div>
-        </section>
-
-
+    </section>
+    
+    
     <footer class="footer">
-            
+        <div class="footer-content">
+            <!-- Logo or other content -->
+            <div class="footer-logo">
+                <h2>LifeWaves</h2>
+            </div>
+    
+            <!-- Newsletter Section -->
+            <div class="footer-newsletter">
+                <h2>Subscribe to our Newsletter</h2>
+                <p>Enter your email to receive our latest updates</p>
+                <form action="#" method="POST" class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+    
+            <!-- Other Footer Links or Information -->
+            <div class="footer-text">
+                <p>&copy; 2024 LifeWaves. All Rights Reserved.</p>
+            </div>
+        </div>
+    
+        <div class="footer-divider"></div>
+    
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>Follow us on</p>
+            <a href="#" class="footer-link">Facebook</a>
+            <a href="#" class="footer-link">Twitter</a>
+            <a href="#" class="footer-link">Instagram</a>
+        </div>
     </footer>
 
     
