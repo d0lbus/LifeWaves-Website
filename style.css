@@ -557,12 +557,6 @@ a:hover {
 	z-index: -1;
 }
 
-.infograph{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
- }
 
 
  #stats{
@@ -617,6 +611,7 @@ a:hover {
  #stats .all-items .item:nth-child(3){
     background-color: #F3E8C8;
  }
+
 
 
 /* INNOVATIONS */
@@ -916,39 +911,9 @@ footer.footer {
 
         /* Stats Media */
 
-         .statistics {
-            width: 100%;
-            align-items: center;
-            margin-right: 0;
-          }
-
-         .statistics-image {
-            flex: 0 0 30%;
-          }
-          
-         .statistics-content {
-           padding: 20px;
-          }
-
-         .stats {
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f8f8f8;
-            width: auto;
-          }
-           .stats h1 {
-            font-size: 36px;
-            color: white;
-            text-align: center;
-           }
-          
-           .statistics h2 {
-             font-size: 20px;
-           }
-           .statistics p {
-             font-size: 14px;
-           }
-
+        #stats .all-items{
+            flex-direction: column;
+        }
            /* Footer Media */
 
            .footer {
