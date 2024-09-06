@@ -15,11 +15,14 @@
 <body>
     <nav>
         <img src="images/LifeWavesWhiteLogo.png" class="logo" alt="Lifewaves Logo">
-        <div class="menu-icon" onclick="toggleMenu()">
+        
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
-        </div>
+        </label>
+
         <ul id="nav-links">
             <li><a href="#heropage">Home</a></li>
             <li><a href="#news_and_events">News</a></li>
@@ -566,14 +569,6 @@
             </div>
         </div>
     </section>
-
-    <script>
-        function toggleMenu() {
-            var navlinks = document.getElementById("nav-links");
-            navlinks.classList.toggle("active");
-        }
-    </script>
-
 
     <footer class="footer">
         <div class="footer-content">

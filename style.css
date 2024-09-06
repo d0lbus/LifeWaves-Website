@@ -64,6 +64,10 @@ nav ul li a {
     margin-left: 5%;
 }
 
+#menu-toggle {
+    display: none;
+}
+
 .menu-icon {
     display: none;
     cursor: pointer;
@@ -94,15 +98,15 @@ nav ul li a {
         background-color: #0b273a;
     }
 
-    nav ul.active {
-        display: flex;
-    }
-
     nav ul li {
         margin: 20px 0;
     }
 
     .menu-icon {
+        display: flex;
+    }
+
+    #menu-toggle:checked ~ ul {
         display: flex;
     }
 }
@@ -361,7 +365,7 @@ nav ul li a {
 
 .person {
     clip-path: circle(39%);
-    width: 70%;
+    width: 50%;
     margin-top: 30px;
     margin-bottom: 20px;
     margin-left: 60px;
