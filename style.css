@@ -404,7 +404,7 @@ nav ul li a {
  /* STATISTICS */
 
 #stats {
-    padding: 10rem 0; 
+    padding: 5rem 0; 
     background-color: #295F98;
 }
 
@@ -977,7 +977,7 @@ footer.footer {
 
      /* NAVIGATION BAR */
 
-     nav {
+    nav {
         background-color: #ff6b6b; 
     }
 
@@ -1066,9 +1066,22 @@ footer.footer {
     }
 
     /* NEWS */
+
+    #news{
+        background-color: rgb(241, 214, 91);
+    }
+    
+    .news-line {
+        background: white;
+    }
+
     .news-card {
         width: 100%;
         margin-bottom: 20px;
+    }
+
+    .news-title {
+        color: #508c9b;
     }
 
     .news-card-content h3 {
@@ -1089,7 +1102,7 @@ footer.footer {
         color: #fff;
     }
 
-    /* EVENTS */
+    /* EVENTS */    
     .events-title {
         font-size: 2rem;
         font-family: 'Poppins', sans-serif;
@@ -1099,10 +1112,18 @@ footer.footer {
         flex: 1 0 90%;
     }
 
+    .slider {
+        padding-bottom: 5px;
+    }
+
     .slide-title {
         font-size: 1.2rem;
         font-family: 'Comic Sans MS', sans-serif;
         color: #fff;
+    }
+
+    .carousel-slide {
+        border-radius: 50%;
     }
 
     /* STATISTICS */
