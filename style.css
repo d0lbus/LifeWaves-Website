@@ -1134,6 +1134,7 @@ footer.footer {
     .col-community {
         width: 100%;
         margin-bottom: 20px;
+        padding: 0;
     }
 
     .card {
@@ -1146,20 +1147,58 @@ footer.footer {
     /* OPINIONS */
     .opinions-container {
         flex-direction: column;
+        margin: 20px 0;
         text-align: center;
     }
 
-    .opinions-text {
-        font-size: 1.2rem;
-        padding: 0 10px;
-        font-family: 'Comic Sans MS', sans-serif;
-        color: #444;
+    .opinions-person-pic-container {
+        width: 100%;
+        margin-block-end: 15px;
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
     }
 
     .person {
-        width: 60%;
-        margin: 0 auto;
+        clip-path: circle(50%);
+        width: 100px;
+        margin: 20px auto;
     }
+
+    .opinions-text {
+        margin-block-end: 15px;
+        margin-top: 20px;
+        font-size: 1.2rem;
+        padding-right: 0;
+        font-family: 'Comic Sans MS', sans-serif;
+        color: #444;
+        word-spacing: normal;
+        text-align: center;
+    }
+
+    .opinions-span {
+        font-size: 16px;
+    }
+
+    .opinions-title {
+        padding-top: 20px;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .opinions-line {
+        width: 80px;
+        margin: 10px auto;
+    }
+
+    .opinions-line-2 {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    
+
+    
 
     /* INNOVATIONS */
     .innovations-card {
