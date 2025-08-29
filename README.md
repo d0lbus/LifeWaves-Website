@@ -35,10 +35,10 @@ This project is not open for contributions.
 
 ## Authors and acknowledgment
 Developed by the **LifeWaves Team**.  
-- ABITAN, Julianne Therese
-- AQUINO, Jan Dolby
-- CAHANAP, Ma. Earl Freskkie
-- SAN MIGUEL, Chloe' Lee
+- Abitan, Julianne Therese
+- Aquino, Jan Dolby
+- Cahanap, Ma. Earl Freskkie
+- San Miguel, Chloe' Lee
 
 ## Project status
 This project has been submitted and graded.
