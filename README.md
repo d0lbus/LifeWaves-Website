@@ -19,13 +19,13 @@ LifeWaves is a modern, responsive website project built to provide users with an
    ```bash
    git clone https://github.com/yourusername/LifeWaves-Website.git
    cd LifeWaves-Website
-2. **Open index.html in your browser**
-3. **(Optional) Host with Live Server in VS Code for smoother development preview**
+2. **Open index.html in your browser**.
+3. **(Optional) Host with Live Server in VS Code for smoother development preview**.
 
 ## Usage
-- Open index.html to view the homepage
-- Navigate through different sections (About, Contact, etc.)
-- Explore responsiveness by resizing the browser or testing on mobile
+- Open index.html to view the homepage.
+- Navigate through different sections (About, Contact, etc.).
+- Explore responsiveness by resizing the browser or testing on mobile.
 
 ## Support
 For help, please contact the project maintainers.
